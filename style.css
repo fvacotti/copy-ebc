@@ -67,11 +67,22 @@ a{
 	padding: 25px;
 	background-color: #007f51;
 	border-radius: 20px;
-	min-height: 230px;
+	min-height: 250px;
 	transition: ease-in 300ms;
 }
 
 .card:hover{
 	box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.5);
 	transition: ease-in 300ms;
+}
+
+.card img {
+	height: 150px;
+}
+
+.card:nth-last-child(-n+1) {
+	background-color: #191919;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
