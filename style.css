@@ -45,6 +45,22 @@ a:hover {
 	color: var(--verde);
 }
 
+.copy-btn {
+	margin-top: 20px;
+	padding: 5px 15px;
+	background-color: var(--negro);
+	color: var(--blanco);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1.5rem;
+	transition: var(--transition);
+  }
+
+  .copy-btn:hover {
+	background-color: var(--verde);
+  }
+
 .container {
 	position: relative;
 	width: 70vw;
@@ -80,7 +96,7 @@ a:hover {
 	padding: 25px;
 	background-color: var(--verde);
 	border-radius: 20px;
-	min-height: 250px;
+	min-height: 280px;
 	transition: var(--transition);
 }
 
